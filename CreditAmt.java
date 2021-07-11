@@ -10,5 +10,9 @@ class CreditAmt{
 		System.out.println("Account Deleted");
 	}
 	
+	public static void editAccount(Integer id){
+		System.out.println("Account Updated");
+	}
+	
 	
 }
