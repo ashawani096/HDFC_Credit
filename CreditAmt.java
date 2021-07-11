@@ -1,10 +1,12 @@
 class CreditAmt{
 		
 	public static void main(String... args){
+		System.out.println("Account deletion started");
+		deleteAccount(1001);
 		
 	}
 	
-	public void deleteAccount(){
+	public static void deleteAccount(Integer id){
 		System.out.println("Account Deleted");
 	}
 	
